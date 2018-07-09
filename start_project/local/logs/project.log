@@ -53,3 +53,28 @@
 2018-07-09T17:12:55.352Z - normal: Run Application
 2018-07-09T17:12:56.133Z - success: preview server running at http://localhost:7456
 2018-07-09T17:12:59.231Z - normal: 1.9.2
+2018-07-09T18:29:43.579Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:18915
+2018-07-09T18:32:42.056Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:21984
+2018-07-09T18:32:42.058Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:21986
+2018-07-09T18:34:08.399Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:23389
+2018-07-09T18:35:06.216Z - failed: [db-task][import] Can not import file /Users/atran/atran_sandbox/start_project/assets/textures/background.jpg, already in the database
+2018-07-09T18:36:45.351Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:25909
+2018-07-09T18:36:57.003Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:25927
+2018-07-09T18:36:57.004Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:25929
+2018-07-09T18:36:57.007Z - error: Should not add renderer component (cc.Graphics) to a Canvas node.
+    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
+    at cc_Graphics._registSizeProvider (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCSGComponent.js:91:20)
+    at cc_Graphics.__preload (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/components/CCRendererUnderSG.js:61:14)
+    at call__preloadInTryCatch (eval at misc.tryCatchFunctor_EDITOR (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/misc.js:1:1), <anonymous>:5:24)
+    at CCClass.activateComp (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/node-activator.js:257:25)
+    at cc_Node.addComponent (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/utils/base-node.js:915:40)
+    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:11769)
+    at HTMLElement.scene:add-component (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:8626)
+    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2283)
+2018-07-09T18:43:42.708Z - failed: [db-task][import] Can not import file /Users/atran/atran_sandbox/start_project/assets/textures/background.jpg, already in the database
+2018-07-09T18:55:37.343Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:42873
+2018-07-09T18:56:56.838Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:44250
+2018-07-09T19:47:30.505Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:73434
+2018-07-09T19:47:30.508Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:73436
+2018-07-09T19:47:30.509Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:73437
+2018-07-09T19:48:29.499Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:74496
