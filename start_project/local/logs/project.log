@@ -1,0 +1,55 @@
+2018-07-09T17:12:51.620Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-09T17:12:51.623Z - normal: checking language setting...
+2018-07-09T17:12:51.623Z - normal: Language: en
+2018-07-09T17:12:52.150Z - success: protocol editor-framework registered
+2018-07-09T17:12:52.150Z - success: protocol app registered
+2018-07-09T17:12:52.150Z - success: protocol theme registered
+2018-07-09T17:12:52.151Z - success: protocol packages registered
+2018-07-09T17:12:52.151Z - success: protocol unpack registerred
+2018-07-09T17:12:52.151Z - success: protocol disable-commonjs registerred
+2018-07-09T17:12:53.720Z - normal: connected!
+2018-07-09T17:12:53.721Z - normal: Check project /Users/atran/atran_sandbox/start_project
+2018-07-09T17:12:53.723Z - normal: Initializing Cocos2d
+2018-07-09T17:12:53.868Z - normal: Initializing Asset Database
+2018-07-09T17:12:53.897Z - success: protocol uuid registerred
+2018-07-09T17:12:53.956Z - success: protocol db registerred
+2018-07-09T17:12:53.958Z - success: protocol thumbnail registerred
+2018-07-09T17:12:53.958Z - normal: Loading editor/builtin packages
+2018-07-09T17:12:53.975Z - success: anysdk loaded
+2018-07-09T17:12:54.083Z - success: assets loaded
+2018-07-09T17:12:54.099Z - success: builder loaded
+2018-07-09T17:12:54.101Z - success: cocos-analytics loaded
+2018-07-09T17:12:54.117Z - success: console loaded
+2018-07-09T17:12:54.145Z - success: fb-instant-games loaded
+2018-07-09T17:12:54.160Z - success: hierarchy loaded
+2018-07-09T17:12:54.175Z - success: inspector loaded
+2018-07-09T17:12:54.177Z - success: keystore loaded
+2018-07-09T17:12:54.192Z - success: node-library loaded
+2018-07-09T17:12:54.193Z - success: package-asset loaded
+2018-07-09T17:12:54.194Z - success: preferences loaded
+2018-07-09T17:12:54.217Z - success: project-exporter loaded
+2018-07-09T17:12:54.244Z - success: project-importer loaded
+2018-07-09T17:12:54.259Z - success: project-settings loaded
+2018-07-09T17:12:54.274Z - success: ui-kit loaded
+2018-07-09T17:12:54.291Z - success: ui-grid loaded
+2018-07-09T17:12:54.307Z - success: scene loaded
+2018-07-09T17:12:54.308Z - success: sprite-editor loaded
+2018-07-09T17:12:54.324Z - success: store loaded
+2018-07-09T17:12:54.341Z - success: timeline loaded
+2018-07-09T17:12:54.342Z - normal: Loading builtin packages
+2018-07-09T17:12:54.357Z - success: asset-db-debugger loaded
+2018-07-09T17:12:54.358Z - success: color-picker loaded
+2018-07-09T17:12:54.372Z - success: package-manager loaded
+2018-07-09T17:12:54.373Z - success: qqplay-adapter loaded
+2018-07-09T17:12:54.390Z - success: sdkbox loaded
+2018-07-09T17:12:54.406Z - success: tester loaded
+2018-07-09T17:12:54.420Z - success: ui-kit-preview-extra loaded
+2018-07-09T17:12:54.435Z - success: ui-kit-preview loaded
+2018-07-09T17:12:54.449Z - success: ui-tree loaded
+2018-07-09T17:12:54.450Z - success: weapp-adapter loaded
+2018-07-09T17:12:55.248Z - normal: Initializing project /Users/atran/atran_sandbox/start_project
+2018-07-09T17:12:55.250Z - normal: Loading packages
+2018-07-09T17:12:55.255Z - normal: Watching packages
+2018-07-09T17:12:55.352Z - normal: Run Application
+2018-07-09T17:12:56.133Z - success: preview server running at http://localhost:7456
+2018-07-09T17:12:59.231Z - normal: 1.9.2
