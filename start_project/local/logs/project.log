@@ -78,3 +78,14 @@
 2018-07-09T19:47:30.508Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:73436
 2018-07-09T19:47:30.509Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:73437
 2018-07-09T19:48:29.499Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:74496
+2018-07-09T21:21:35.065Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:135150
+2018-07-09T21:30:27.878Z - error: Property 'Game.ground' must define at least one of 'default', 'get' or 'set'.
+    at Object.errorID (/Applications/CocosCreator.app/Contents/Resources/engine/CCDebugger.js:343:18)
+    at Object.exports.preprocessAttrs (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/preprocess-class.js:232:28)
+    at declareProperties (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:807:20)
+    at Object.CCClass [as Class] (/Applications/CocosCreator.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:947:9)
+    at __define (/Users/atran/atran_sandbox/start_project/temp/quick-scripts/assets/scripts/Game.js:7:4)
+    at /Users/atran/atran_sandbox/start_project/temp/quick-scripts/assets/scripts/Game.js:48:13
+    at Object.<anonymous> (/Users/atran/atran_sandbox/start_project/temp/quick-scripts/assets/scripts/Game.js:55:11)
+    at Object.<anonymous> (/Users/atran/atran_sandbox/start_project/temp/quick-scripts/assets/scripts/Game.js:58:3)
+    at Module._compile (module.js:571:32)

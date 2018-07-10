@@ -71,6 +71,9 @@
     "_components": [
       {
         "__id__": 10
+      },
+      {
+        "__id__": 11
       }
     ],
     "_prefab": null,
@@ -375,5 +378,25 @@
     },
     "_fitWidth": false,
     "_fitHeight": true
+  },
+  {
+    "__type__": "024c9baw8pCvYrl9XpiUcCM",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "starPrefab": {
+      "__uuid__": "91b0ef4e-bab3-49da-8499-6b355d3a9df8"
+    },
+    "maxStarDuration": 3,
+    "minStarDuration": 5,
+    "ground": {
+      "__id__": 5
+    },
+    "player": {
+      "__id__": 7
+    }
   }
 ]
