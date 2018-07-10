@@ -90,3 +90,7 @@
     at Object.<anonymous> (/Users/atran/atran_sandbox/start_project/temp/quick-scripts/assets/scripts/Game.js:58:3)
     at Module._compile (module.js:571:32)
 2018-07-10T13:44:18.931Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:167464
+2018-07-10T15:11:52.468Z - success: VS Code extension installed to /Users/atran/.vscode/extensions
+2018-07-10T15:12:59.945Z - success: API data generated and copied to /Users/atran/atran_sandbox/start_project/creator.d.ts
+2018-07-10T15:18:09.965Z - success: Chrome debug setting has been updated to .vscode/launch.json, please install Debugger for Chrome VS Code extension to debug your project.
+2018-07-10T17:33:53.030Z - info: shutdown preview server
