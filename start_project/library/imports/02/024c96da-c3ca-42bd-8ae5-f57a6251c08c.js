@@ -29,6 +29,12 @@ cc.Class({
         player: {
             default: null,
             type: cc.Node
+        },
+
+        // Player score
+        scoreDisplay: {
+            default: null,
+            type: cc.Label
         }
     },
 
@@ -40,6 +46,9 @@ cc.Class({
 
         // Generate a new star
         this.spawnNewStar();
+
+        // Initialize score
+        this.score = 0;
     },
 
     spawnNewStar: function spawnNewStar() {
@@ -51,6 +60,9 @@ cc.Class({
 
         // Set up a random position for the star
         newStar.setPosition(this.getNewStarPosition());
+
+        // Deliver the concrete example of the Game component into the star component
+        newStar.getComponent('Star').game = this;
     },
 
     getNewStarPosition: function getNewStarPosition() {
@@ -68,10 +80,19 @@ cc.Class({
         return cc.p(randX, randY);
     },
 
-    start: function start() {}
-}
+    /*
+    start () {
+     },
+    */
 
-// update (dt) {},
-);
+    // update (dt) {},
+    gainScore: function gainScore() {
+        this.score += 1;
+
+        // Update the scoreDisplay label
+        this.scoreDisplay.string = 'Score: ' + this.score.toString();
+        //this.scoreDisplay.string = 'Cheese';
+    }
+});
 
 cc._RF.pop();

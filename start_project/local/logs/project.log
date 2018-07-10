@@ -89,3 +89,4 @@
     at Object.<anonymous> (/Users/atran/atran_sandbox/start_project/temp/quick-scripts/assets/scripts/Game.js:55:11)
     at Object.<anonymous> (/Users/atran/atran_sandbox/start_project/temp/quick-scripts/assets/scripts/Game.js:58:3)
     at Module._compile (module.js:571:32)
+2018-07-10T13:44:18.931Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:167464
