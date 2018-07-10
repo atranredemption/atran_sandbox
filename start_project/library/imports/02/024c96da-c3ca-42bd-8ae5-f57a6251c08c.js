@@ -35,6 +35,12 @@ cc.Class({
         scoreDisplay: {
             default: null,
             type: cc.Label
+        },
+
+        // Scoring audio
+        scoreAudio: {
+            default: null,
+            url: cc.AudioClip
         }
     },
 
@@ -110,7 +116,9 @@ cc.Class({
 
         // Update the scoreDisplay label
         this.scoreDisplay.string = 'Score: ' + this.score.toString();
-        //this.scoreDisplay.string = 'Cheese';
+
+        // Play point score audio
+        cc.audioEngine.playEffect(this.scoreAudio, false);
     },
 
     gameOver: function gameOver() {
