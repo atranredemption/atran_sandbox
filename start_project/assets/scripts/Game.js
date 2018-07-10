@@ -38,6 +38,10 @@ cc.Class({
         // Obtain the anchor point of ground level on the y-axis
         this.groundY = this.ground.y + this.ground.height/2; // this.ground.top may also work
 
+        // Initialize lifetime of stars
+        this.timer = 0;
+        this.starDuration = 0;
+
         // Generate a new star
         this.spawnNewStar();
 
@@ -57,6 +61,10 @@ cc.Class({
 
         // Deliver the concrete example of the Game component into the star component
         newStar.getComponent('Star').game = this;
+
+        // Reset timer, randomly choose a value according to the scale of star duration
+        this.starDuration = this.minStarDuration + cc.random0To1() * (this.maxStarDuration - this.minStarDuration);
+        this.timer = 0;
     },
 
     getNewStarPosition: function() {
@@ -81,11 +89,27 @@ cc.Class({
     */
 
     // update (dt) {},
+    update: function (dt) {
+        // Update timer for each frame, when a new star is not generated after exceeding duration
+        // invoke the logic of game failure
+        if (this.timer > this.starDuration) {
+            this.gameOver();
+            return;
+        }
+
+        this.timer += dt;
+    },
+
     gainScore: function() {
         this.score += 1;
 
         // Update the scoreDisplay label
         this.scoreDisplay.string = 'Score: ' + this.score.toString();
         //this.scoreDisplay.string = 'Cheese';
+    },
+
+    gameOver: function() {
+        this.player.stopAllActions(); // Stop the player from jumping
+        cc.director.loadScene('game');
     },
 });

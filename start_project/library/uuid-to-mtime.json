@@ -299,14 +299,14 @@
     "meta": 1531228151740,
     "relativePath": "prefab/webview.prefab"
   },
-  "e5ce2ca2-394e-436a-aeab-0202ab3f4b76": {
-    "asset": 1531232004783,
-    "meta": 1531232043057,
-    "relativePath": "scripts/Star.js"
-  },
   "024c96da-c3ca-42bd-8ae5-f57a6251c08c": {
-    "asset": 1531232091544,
-    "meta": 1531232092789,
+    "asset": 1531234093533,
+    "meta": 1531234094878,
     "relativePath": "scripts/Game.js"
+  },
+  "e5ce2ca2-394e-436a-aeab-0202ab3f4b76": {
+    "asset": 1531234310685,
+    "meta": 1531234311851,
+    "relativePath": "scripts/Star.js"
   }
 }
